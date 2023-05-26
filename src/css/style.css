@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Knight';
+    src: url('Supernatural_Knight.ttf') format('truetype');
+    font-weight: 500;
+    font-size: larger;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Knight', sans-serif;
+    max-width: 1280px;
+    margin: 0 auto;
+
+    background-image: url('../assets/imagens/Menu_Theme_Godmaster.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+body.dark-mode {
+    color: #f5f5f5;
+
+    background-image: url(../assets/imagens/Menu_Theme_Lifeblood.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+header .logo {
+    width: 130px;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+
+}
+
+header .imagem-botao:hover {
+    cursor: pointer;
+}
+
+header .imagem-botao {
+    width: 50px;
+    transition: 0.2s ease-in-out;
+}
+
+
+header #botao-tema {
+    background: none;
+    border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover,
+main .cartao-hollow:hover,
+main .cartao-trupe:hover,
+main .cartao-deus:hover {
+    transform: scale(1.05);
+
+}
+
+main {
+    padding: 25px;
+}
+
+main .character-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+main .cartao-hollow {
+    background: linear-gradient(hsla(36, 67%, 71%, 0.871), rgb(177, 177, 177, 0.871));
+    width: 210px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+main #cartao-hollow-hornet:hover,
+main #cartao-trupe-grimm:hover,
+main #cartao-hollow-defensor:hover {
+    cursor: pointer;
+}
+
+
+.dark-mode .cartao-hollow {
+    background: linear-gradient(#2b64afd3, #0f2946de);
+
+}
+
+
+main .cartao-hollow span,
+main .cartao-deus span,
+main .cartao-trupe span {
+    border-radius: 5px;
+    border-bottom: 1px solid;
+    padding: 0px 6px 0px 6px;
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+
+}
+
+main .cartao-hollow .png,
+.cartao-trupe .png,
+.cartao-deus .png {
+    height: 128px;
+    object-fit: cover;
+}
+
+main .design {
+    height: 30px;
+    display: auto;
+    align-content: center;
+    object-fit: cover;
+}
+
+main .design2 {
+    height: 22px;
+    align-items: center;
+    object-fit: cover;
+}
+
+main .descricao {
+    padding: 0px 15px 0px 15px;
+    max-height: 130px;
+    overflow-y: scroll;
+}

@@ -1,0 +1,40 @@
+main .cartao-trupe {
+    background: linear-gradient(#a71e22de, #551114de);
+    width: 210px;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: rgb(204, 204, 204);
+}
+
+
+.dark-mode .cartao-trupe {
+    background: linear-gradient(#751518de, #350b0dde);
+
+}
+
+
+main .cartao-deus {
+    background: linear-gradient(hwb(52 78% 0% / 0.911), rgba(230, 222, 182, 0.871));
+    width: 210px;
+    padding: 5px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    transition: 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.dark-mode .cartao-deus {
+    background: linear-gradient(hwb(53 46% 41% / 0.911), rgba(83, 80, 65, 0.871));
+
+}
+
+  
