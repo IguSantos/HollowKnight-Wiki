@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> 🏕 
+> 🎮 Projeto que inclui alguns dos personagens do jogo Hollow Knight em uma lista de cartãos e biografia. Com a disponibilizada a modo noturno.
 
 ### 🏠 [Clique para visualizar o projeto](https://igusantos.github.io/HollowKnight-Wiki/)
 
